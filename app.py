@@ -4,8 +4,8 @@ app = Fastapi.FastAPI()
 
 @app.get("/")
 def home():
-    return{"message" : "Hello All CI/CD is working "}
+    return {"message": "CI/CD pipeline updated successfully!"}
 
 @app.get("/health")
 def health():
-    return{"status": "server is running biath"}
+    return {"status": "server is running normally"}
